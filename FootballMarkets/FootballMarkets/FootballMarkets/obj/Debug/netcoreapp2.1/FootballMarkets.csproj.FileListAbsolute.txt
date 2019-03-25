@@ -36,7 +36,6 @@ D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\bin\Debug\net
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\bin\Debug\netcoreapp2.1\FootballMarkets.pdb
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\bin\Debug\netcoreapp2.1\FootballMarkets.Views.dll
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\bin\Debug\netcoreapp2.1\FootballMarkets.Views.pdb
-D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.csprojAssemblyReference.cache
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.csproj.CoreCompileInputs.cache
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.RazorAssemblyInfo.cache
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.RazorAssemblyInfo.cs
@@ -61,3 +60,6 @@ D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\net
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.dll
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.pdb
 D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.csproj.CopyComplete
+D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\FootballMarkets.csprojAssemblyReference.cache
+D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\Razor\Views\Home\Winner.g.cshtml.cs
+D:\FootballMarkets\FootballMarkets\FootballMarkets\FootballMarkets\obj\Debug\netcoreapp2.1\Razor\Views\Home\ExactScore.g.cshtml.cs

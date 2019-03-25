@@ -18,13 +18,22 @@ namespace FootballMarkets.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            var games = this.context.Games.ToList();
+            return View(games);
         }
 
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
 
+            return View();
+        }
+
+
+        [HttpGet]
+        [Route("contact")]
+        public IActionResult Contact()
+        {
             return View();
         }
 
@@ -40,6 +49,41 @@ namespace FootballMarkets.Controllers
         public IActionResult Create(Game game)
         {
             this.context.Games.Add(game);
+            this.context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        [Route("winner/{id}")]
+        public IActionResult Winner(int id)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Route("winner/{id}")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Winner(int id, Winner winner)
+        {
+            winner.GameId = id;
+            this.context.Winners.Add(winner);
+            this.context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        [Route("exactScore/{id}")]
+        public IActionResult ExactScore(int id)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Route("exactScore/{id}")]
+        [ValidateAntiForgeryToken]
+        public IActionResult ExactScore(int id, ExactScore exactScore)
+        {
+            this.context.ExactScores.Add(exactScore);
             this.context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }

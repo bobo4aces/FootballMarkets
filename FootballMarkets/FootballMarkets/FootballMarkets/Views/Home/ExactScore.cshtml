@@ -1,0 +1,55 @@
+﻿
+
+@model FootballMarkets.Models.ExactScore
+
+
+
+@{
+
+    ViewBag.Title = "Exact Score";
+
+}
+
+
+
+<div class="wrapper">
+
+    @using (Html.BeginForm("ExactScore", "Home", FormMethod.Post, new { @class = "exactScore-create" }))
+
+    {
+
+        @Html.AntiForgeryToken()
+
+        <div class="create-header">
+
+            Add Exact Score Odds
+
+        </div>
+        <div class="create-Score">
+
+            <div class="create-Score-label">Score</div>
+
+            <input class="create-Score-content" name="Score" />
+
+        </div>
+
+        <div class="create-Odds">
+
+            <div class="create-Odds-label">Odds</div>
+
+            <input class="create-Odds-content" name="Odds" />
+
+        </div>
+
+        <div class="create-button-holder">
+
+            <button type="submit" class="submit-button">Add Bet</button>
+
+            <a type="button" href="/" class="back-button">Back</a>
+
+        </div>
+
+    }
+
+</div>
+

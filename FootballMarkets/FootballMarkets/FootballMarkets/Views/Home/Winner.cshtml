@@ -1,0 +1,63 @@
+﻿
+
+@model FootballMarkets.Models.Winner
+
+
+
+@{
+
+    ViewBag.Title = "Winner";
+
+}
+
+
+
+<div class="wrapper">
+
+    @using (Html.BeginForm("Winner", "Home", FormMethod.Post, new { @class = "winner-create" }))
+
+    {
+
+        @Html.AntiForgeryToken()
+
+        <div class="create-header">
+
+            Add Winner Odds
+
+        </div>
+        <div class="create-HomeTeam">
+
+            <div class="create-HomeTeam-label">Home Team Win Odds</div>
+
+            <input class="create-HomeTeam-content" name="HomeTeamWin" />
+
+        </div>
+
+        <div class="create-HomeTeam">
+
+            <div class="create-HomeTeam-label">Draw Odds</div>
+
+            <input class="create-HomeTeam-content" name="Draw" />
+
+        </div>
+
+        <div class="create-AwayTeam">
+
+            <div class="create-AwayTeam-label">Away Team Win Odds</div>
+
+            <input class="create-AwayTeam-content" name="AwayTeamWin" />
+
+        </div>
+
+        <div class="create-button-holder">
+
+            <button type="submit" class="submit-button">Add Bet</button>
+
+            <a type="button" href="/" class="back-button">Back</a>
+
+        </div>
+
+    }
+
+</div>
+
