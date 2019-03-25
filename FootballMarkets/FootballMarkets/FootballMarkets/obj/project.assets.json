@@ -12597,11 +12597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Boris\\Desktop\\FootballMarkets\\FootballMarkets\\FootballMarkets\\FootballMarkets.csproj",
+      "projectUniqueName": "D:\\FootballMarkets\\FootballMarkets\\FootballMarkets\\FootballMarkets\\FootballMarkets.csproj",
       "projectName": "FootballMarkets",
-      "projectPath": "C:\\Users\\Boris\\Desktop\\FootballMarkets\\FootballMarkets\\FootballMarkets\\FootballMarkets.csproj",
+      "projectPath": "D:\\FootballMarkets\\FootballMarkets\\FootballMarkets\\FootballMarkets\\FootballMarkets.csproj",
       "packagesPath": "C:\\Users\\Boris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Boris\\Desktop\\FootballMarkets\\FootballMarkets\\FootballMarkets\\obj\\",
+      "outputPath": "D:\\FootballMarkets\\FootballMarkets\\FootballMarkets\\FootballMarkets\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

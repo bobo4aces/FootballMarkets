@@ -13,14 +13,10 @@ namespace FootballMarkets.Models
         public DbSet<ExactScore> ExactScores { get; set; }
         public DbSet<Game> Games { get; set; }
         public DbSet<Winner> Winners { get; set; }
-        public MarketDbContext(DbContextOptions options) 
-            : base(options)
-        {
-
-        }
 
         public MarketDbContext()
         {
+            this.Database.EnsureCreated();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
