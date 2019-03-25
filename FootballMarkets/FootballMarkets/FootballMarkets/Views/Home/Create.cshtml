@@ -1,0 +1,69 @@
+﻿@model FootballMarkets.Models.Game
+
+
+
+@{
+
+    ViewBag.Title = "Create";
+
+}
+
+
+
+<div class="wrapper">
+
+    @using (Html.BeginForm("Create", "Game", FormMethod.Post, new { @class = "game-create" }))
+
+    {
+
+        @Html.AntiForgeryToken()
+
+        <div class="create-header">
+
+            Add Game
+
+        </div>
+
+        <div class="create-HomeTeam">
+
+            <div class="create-HomeTeam-label">Home Team</div>
+
+            <input class="create-HomeTeam-content" name="HomeTeam" />
+
+        </div>
+        <div class="create-AwayTeam">
+
+            <div class="create-AwayTeam-label">Away Team</div>
+
+            <input class="create-AwayTeam-content" name="AwayTeam" />
+
+        </div>
+
+
+        <div class="create-Date">
+
+            <div class="create-Date-label">Date</div>
+
+            <input class="create-Date-content" name="Date" />
+
+        </div>
+
+        <div class="create-League">
+
+            <div class="create-League-label">League</div>
+
+            <input class="create-League-content" name="League" />
+
+        </div>
+
+        <div class="create-button-holder">
+
+            <button type="submit" class="submit-button">Add Game</button>
+
+            <a type="button" href="/" class="back-button">Back</a>
+
+        </div>
+
+    }
+
+</div>
